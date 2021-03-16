@@ -18,18 +18,35 @@
         <div class="card_white" id="title_card">
           <%= image_tag "profile_image.jpg", id: "profile_image" %>
           <h1>Brandon Lamb</h1>
-          <h4>Programmer | <a href="https://www.dndbeyond.com/" id="btn_olive" target="_blank">
-              D&D Enthusiast</a> | Great Smiler </h4>
+          <ul class="header_ul">
+            <li>
+              <h4>Full Stack Developer</h4>
+            </li>
+            <li>
+              <h4><a href="https://www.dndbeyond.com/" id="btn_olive" target="_blank">
+                  D&D Enthusiast</a></h4>
+            </li>
+            <li>
+              <h4>Great Smiler</h4>
+            </li>
+          </ul>
         </div>
         <div class="card-container">
           <div class="card_white">
-            <div id="video">
-              <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <h2>Programming</h2>
-            <p>I am currently studying programming at
-              <a href="https://www.lewagon.com/tokyo" class="link" target="_blank">Le Wagon Tokyo</a>.
-              I am learning Ruby, Javascript, HTML and CSS. I also study game code in my spare time.
+            <%= image_tag "stack.jpg", class: "card_image" %>
+            <h2>My Stack</h2>
+            <p>I studied programming at
+              <a href="https://www.lewagon.com/tokyo" class="link" target="_blank">Le Wagon Tokyo</a>. Where I learned OOP with Ruby, Ruby on Rails, SQLite, PostgreSQL, HTML5, CSS3, JS and libraries (Bootstrap, jQuery...), and React. So my stack looks like this:
+              <ul>
+                <li><%= image_tag "ruby.png", id: "rails" %></li>
+                <li><%= image_tag "rails_icon.png", id: "rails" %></li>
+                <li><%= image_tag "postgresql.png", id: "rails" %></li>
+                <li><%= image_tag "Sqlite-square.png", id: "rails" %></li>
+                <li><%= image_tag "react.png", id: "rails" %></li>
+                <li><%= image_tag "javascript.png", id: "rails" %></li>
+                <li><%= image_tag "html5.png", id: "rails" %></li>
+                <li><%= image_tag "css3.png", id: "rails" %></li>
+              </ul>
             </p>
           </div>
           <div class="card_white">
@@ -40,6 +57,9 @@
               or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
               I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
               If you're in Marrowind keep an eye out for some of my future work;)
+              <div id="video">
+                <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
             </p>
           </div>
           <div class="card_white">
@@ -65,6 +85,7 @@
         <div class="footer">
           <ul class="footer-links">
             <li><a href="https://www.facebook.com/brandon.lamb.1987/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lamb-brandon/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="https://github.com/blamb888" target="_blank"><i class="fab fa-github-square"></i></a></li>
             <li><a href="https://www.artstation.com/starry_b" target="_blank"><i class="fab fa-artstation"></i></a></li>
             <li><a href="https://www.behance.net/starry_b_tokyo" target="_blank"><i class="fab fa-behance-square"></i></a></li>
@@ -73,8 +94,9 @@
           </ul>
         </div>
       </div>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    </body>
-  </html>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </body>
+</html>

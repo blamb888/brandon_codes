@@ -18,3 +18,21 @@ li:hover {
 i {
   font-size: 32px;
 }
+
+.header_ul {
+  display: inline-grid;
+  li {
+  display: inline-block;
+  margin: 0px;
+  color: rgb(129, 178, 154);
+  }
+
+li:hover {
+  color: rgb(224, 122, 95);
+  transition: .3s;
+  }
+
+i {
+  font-size: 32px;
+  }
+}
