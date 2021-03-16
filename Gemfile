@@ -18,3 +18,4 @@ end
 
 #ADDED GEMS
 gem 'yarn'
+gem 'optimist'
