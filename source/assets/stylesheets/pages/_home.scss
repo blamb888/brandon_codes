@@ -23,6 +23,11 @@ ul {
 a {
   text-decoration: none !important;
   display: inline-block;
+  color: rgb(129, 178, 154) !important;
+}
+a:hover {
+  color: rgb(224, 122, 95) !important;
+  transition: .3s;
 }
 
 .content-container {
@@ -99,6 +104,9 @@ a {
     padding: 0px !important;
     margin: 0px !important;
     }
+  }
+  #rails {
+    width: 32px !important;
   }
 }
 

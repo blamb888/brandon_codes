@@ -34,8 +34,9 @@
         <div class="card-container">
           <div class="card_white">
             <%= image_tag "stack.jpg", class: "card_image" %>
+            <br>
             <h2>My Stack</h2>
-            <p>I studied programming at
+            <h5>I studied programming at
               <a href="https://www.lewagon.com/tokyo" class="link" target="_blank">Le Wagon Tokyo</a>. Where I learned OOP with Ruby, Ruby on Rails, SQLite, PostgreSQL, HTML5, CSS3, JS and libraries (Bootstrap, jQuery...), and React. So my stack looks like this:
               <ul>
                 <li><%= image_tag "ruby.png", id: "rails" %></li>
@@ -47,25 +48,28 @@
                 <li><%= image_tag "html5.png", id: "rails" %></li>
                 <li><%= image_tag "css3.png", id: "rails" %></li>
               </ul>
-            </p>
+            </h5>
           </div>
           <div class="card_white">
             <%= image_tag "dragon_jumpers.jpg", class: "card_image" %>
+            <br>
             <h2>Projects</h2>
-            <p>I really love building things. Especially things related to games or bringing people together. Please take a look and let me know if you want to collaborate on something.
-            </p>
+            <h5>I really love building things. Especially things related to games or bringing people together. Please take a look and let me know if you want to collaborate on something.
+            </h5>
           </div>
           <div class="card_white">
-            <%= image_tag "dragon_jumpers.jpg", class: "card_image" %>
+            <%= image_tag "mimic.png", class: "card_image" %>
+            <br>
             <h2><%= link_to "Mimic's Blackberry", "https://www.mimics-blackberry.com/", target: "_blank" %></h2>
-            <p>I was the lead dev on this project. We made a calendar application to help DM's and players
+            <h5>I was the lead dev on this project. We made a calendar application to help DM's and players
               connect, keep track of time, and take notes about their
               campaigns. The app has pre-made calendar templates for
               different fantasy settings (such as Eberron) seeded with
               cultural events and holidays. I personally wrote the chrome
               extension so players could add notes to their calendars
               without leaving their VTTP's.
-            </p>
+            </h5>
+            <br>
             <div class="cards">
               <div>
                 <%= image_tag "MimicsBlackberry_desktop.jpg", class: "card-category", id: "desktop-image" %>
@@ -96,14 +100,16 @@
             </div>
           </div>
           <div class="card_white">
-            <%= image_tag "dragon_jumpers.jpg", class: "card_image" %>
+            <%= image_tag "Frostmaiden.jpg", class: "card_image" %>
+            <br>
             <h2><%= link_to "DnD Spells Ranked", "https://dnd-spells-ranked.herokuapp.com/", target: "_blank" %></h2>
-            <p>This was a solo project I did. I made an application for ranking and reviewing D&D
+            <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
               spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
               about different spells. Thinking of adding a new section
               specifically for people's opinions about what spells to
               take at which level for each class.
-            </p>
+            </h5>
+            <br>
             <div class="cards">
               <div>
                 <%= image_tag "DndSpellsRanked_desktop.jpg", class: "card-category", id: "desktop-image" %>
@@ -128,13 +134,14 @@
             </div>
           </div>
           <div class="card_white">
-            <%= image_tag "dragon_jumpers.jpg", class: "card_image" %>
+            <%= image_tag "costume.png", class: "card_image" %>
+            <br>
             <h2><%= link_to "Costume Marketplace", "https://rails-costume-airbnb-clone.herokuapp.com/", target: "_blank" %></h2>
-            <p>I was lead developer for this one-week market-place project sprint. I did a
+            <h5>I was lead developer for this one-week market-place project sprint. I did a
               lot of the back-end work on this project, including
               creating the back-end CRUD methods and implementing
               our map, and setting up our Cloudinary services.
-            </p>
+            </h5>
             <div class="cards">
               <div>
                 <ul>
@@ -159,10 +166,12 @@
             </div>
           </div>
           <div class="card_white">
-            <%= image_tag "dragon_jumpers.jpg", class: "card_image" %>
+            <%= image_tag "popculture.jpg", class: "card_image" %>
+            <br>
             <h2><%= link_to "Pop-culture Cocktails", "https://pop-culture-cocktails.herokuapp.com/", target: "_blank" %></h2>
-            <p>This was the first app I ever made aside from my profile. There is a cocktail bar in Shibuya that serves cocktails based off of famous movies. For instance the "Die Hard" on their menu is basically gasoline. I thought it would be fun to have a place where people could share their ideas of what different movie cocktails should be.
-            </p>
+            <h5>This was the first app I ever made aside from my profile. There is a cocktail bar in Shibuya that serves cocktails based off of famous movies. For instance the "Die Hard" on their menu is basically gasoline. I thought it would be fun to have a place where people could share their ideas of what different movie cocktails should be.
+            </h5>
+            <br>
             <div class="cards">
               <div>
                 <%= image_tag "PopCultureCocktails_fullScr.jpg", class: "card-category", id: "desktop-image" %>
@@ -181,31 +190,35 @@
           </div>
           <div class="card_white">
             <%= image_tag "potion.jpg", class: "card_image", id: "potion_image" %>
+            <br>
             <h2>3D Art</h2>
-            <p>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
+            <h5>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
               Check out my <a href="https://www.artstation.com/starry_b" class="link" target="_blank">Artstation</a>
               or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
               I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
               If you're in Marrowind keep an eye out for some of my future work;)
-              <div id="video">
-                <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-              </div>
-            </p>
+            </h5>
+            <br>
+            <div id="video">
+              <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
           </div>
           <div class="card_white">
             <%= image_tag "ripley_leaves.jpeg", class: "card_image" %>
+            <br>
             <h2>Shiba Dad</h2>
-            <p>Enough talk about me.
+            <h5>Enough talk about me.
               You're all here for the pupper photos, I know.
               Please like and follow my dog Ripley on her
               <a href="https://www.instagram.com/ripley_the_tokyo_shiba/" class="link" target="_blank">Instagram</a>.
-            </p>
+            </h5>
           </div>
-          <div class="card_white">
+          <div class="card_white mb-5">
             <%= image_tag "dnd_logo_olive.png", id: "dnd_logo", class: "card_image" %>
+            <br>
             <h2>D&D Nerd</h2>
-            <p>I have been playing Dungeons and Dragons for a couple of years now. I mainly DM but I love to be a player as well. Let me know if you want to <%= link_to "roll for initiative", "https://app.roll20.net/users/3742675/brandon-l", target: "_blank" %> on something!
-            </p>
+            <h5>I have been playing Dungeons and Dragons for a couple of years now. I mainly DM but I love to be a player as well. Let me know if you want to <%= link_to "roll for initiative", "https://app.roll20.net/users/3742675/brandon-l", target: "_blank" %> on something!
+            </h5>
           </div>
         </div>
       </div>
