@@ -1,8 +1,8 @@
 /*Images*/
 .card_image {
   margin: 0 auto;
-  width: 64px;
-  height: 64px;
+  width: 128px;
+  height: 128px;
   object-fit: cover;
   border-radius: 50%;
   box-shadow: 0 0 2px rgb(4, 4, 4);
@@ -29,8 +29,8 @@
 
 #dnd_logo {
   margin: 0 auto;
-  width: 128px;
-  height: 64px;
+  width: 256px;
+  height: 128px;
   object-fit: cover;
   border-radius: 4px;
   box-shadow: 0 0 2px rgba(2, 2, 2, 0.308);
@@ -42,5 +42,5 @@
 }
 
 #rails {
-  width: 24px;
+  width: 64px;
 }
