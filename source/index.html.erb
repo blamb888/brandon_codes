@@ -11,7 +11,90 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
-    <h1 class="text-center">Welcome to my page</h1>
+    <div class="page-frame-content">
+      <div class="page-frame-header">
+      </div>
+      <div class="page-frame-body">
+        <div class="card_white" id="title_card">
+          <%= image_tag "profile_image.jpg", id: "profile_image" %>
+          <h1>Brandon Lamb</h1>
+          <ul class="header_ul">
+            <li>
+              <h4>Full Stack Developer</h4>
+            </li>
+            <li>
+              <h4><a href="https://www.dndbeyond.com/" id="btn_olive" target="_blank">
+                  D&D Enthusiast</a></h4>
+            </li>
+            <li>
+              <h4>Great Smiler</h4>
+            </li>
+          </ul>
+        </div>
+        <div class="card-container">
+          <div class="card_white">
+            <%= image_tag "stack.jpg", class: "card_image" %>
+            <h2>My Stack</h2>
+            <p>I studied programming at
+              <a href="https://www.lewagon.com/tokyo" class="link" target="_blank">Le Wagon Tokyo</a>. Where I learned OOP with Ruby, Ruby on Rails, SQLite, PostgreSQL, HTML5, CSS3, JS and libraries (Bootstrap, jQuery...), and React. So my stack looks like this:
+              <ul>
+                <li><%= image_tag "ruby.png", id: "rails" %></li>
+                <li><%= image_tag "rails_icon.png", id: "rails" %></li>
+                <li><%= image_tag "postgresql.png", id: "rails" %></li>
+                <li><%= image_tag "Sqlite-square.png", id: "rails" %></li>
+                <li><%= image_tag "react.png", id: "rails" %></li>
+                <li><%= image_tag "javascript.png", id: "rails" %></li>
+                <li><%= image_tag "html5.png", id: "rails" %></li>
+                <li><%= image_tag "css3.png", id: "rails" %></li>
+              </ul>
+            </p>
+          </div>
+          <div class="card_white">
+            <%= image_tag "potion.jpg", class: "card_image", id: "potion_image" %>
+            <h2>3D Art</h2>
+            <p>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
+              Check out my <a href="https://www.artstation.com/starry_b" class="link" target="_blank">Artstation</a>
+              or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
+              I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
+              If you're in Marrowind keep an eye out for some of my future work;)
+              <div id="video">
+                <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+            </p>
+          </div>
+          <div class="card_white">
+            <%= image_tag "ripley_leaves.jpeg", class: "card_image" %>
+            <h2>Shiba Dad</h2>
+            <p>Enough talk about me.
+              You're all here for the pupper photos, I know.
+              Please like and follow my dog Ripley on her
+              <a href="https://www.instagram.com/ripley_the_tokyo_shiba/" class="link" target="_blank">Instagram</a>.
+            </p>
+          </div>
+          <div class="card_white">
+            <%= image_tag "dnd_logo_olive.png", id: "dnd_logo", class: "card_image" %>
+            <h2>D&D Nerd</h2>
+            <p>I have been playing Dungeons and Dragons for a couple of years now.
+              My not-so-secret Le Wagon side-goal is to get some of the people in Batch 543 to play D&D.
+              Mwuhahaha!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="page-frame-footer">
+        <div class="footer">
+          <ul class="footer-links">
+            <li><a href="https://www.facebook.com/brandon.lamb.1987/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/lamb-brandon/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://github.com/blamb888" target="_blank"><i class="fab fa-github-square"></i></a></li>
+            <li><a href="https://www.artstation.com/starry_b" target="_blank"><i class="fab fa-artstation"></i></a></li>
+            <li><a href="https://www.behance.net/starry_b_tokyo" target="_blank"><i class="fab fa-behance-square"></i></a></li>
+            <li><a href="https://www.instagram.com/starry_b_eats/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="https://www.instagram.com/ripley_the_tokyo_shiba/" target="_blank"><i class="fab fa-instagram"><%= image_tag "doge_png.png", id: "doge" %></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>

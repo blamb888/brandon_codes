@@ -1,1 +1,124 @@
 // Specific CSS for your home-page
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 100;
+  background: rgb(243, 243, 243);
+  // background-color: rgb(250,250,250);
+  color: rgb(40,40,40);
+}
+
+body, h1, h2, h3, p {
+  margin: 0;
+}
+h2 {
+  font-family: 'Open Sans', sans-serif;
+}
+ul {
+  padding: 0;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+.content-container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.page-frame-content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page-frame-header {
+  // background-color: lightblue;
+  padding: 16px;
+}
+
+.page-frame-body {
+  flex-grow: 1;
+}
+
+.page-frame-footer {
+  // background-color: lightblue;
+  flex-grow: 1;
+  // padding: 16px;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media (max-width: 992px) {
+  .content-container {
+    width: 700px;
+  }
+  .card_white {
+    width: 700px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (max-width: 768px) {
+  .content-container {
+    width: 600px;
+  }
+  .card_white {
+    width: 500px;
+  }
+  i {
+    font-size: 22px;
+  }
+  #title_card > h2 {
+    font-size: 18px;
+  }
+  #btn_olive {
+    padding: 12px;
+    margin: 12px;
+    border-radius: 2px;
+  }
+  iframe {
+    width: 250px;
+  }
+  h4 {
+    font-size: 24px !important;
+  }
+
+  .footer {
+    height: 340px !important;
+    & .footer-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding: 0px !important;
+    margin: 0px !important;
+    }
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media (max-width: 576px) {
+  .content-container {
+    width: 300px;
+  }
+   .card_white {
+    width: 300px;
+  }
+  i {
+    font-size: 24px;
+  }
+  #title_card > h2 {
+    font-size: 12px;
+  }
+  #btn_olive {
+    padding: 8px;
+    margin: 8px;
+    border-radius: 2px;
+  }
+}

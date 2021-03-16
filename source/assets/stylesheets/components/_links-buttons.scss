@@ -1,0 +1,24 @@
+/*Links & Buttons */
+
+a {
+  text-decoration: none;
+  color: rgb(129, 178, 154);
+}
+a:hover {
+  color: rgb(224, 122, 95);
+  transition: .3s;
+}
+
+#btn_olive {
+  background: rgba(129, 178, 154, 0.315);
+  border-color: rgba(129, 178, 154, 0.52);
+  padding: 16px;
+  margin: 16px;
+  border-radius: 4px;
+}
+
+#btn_olive:hover {
+  background: rgba(129, 178, 154, 0.144);
+  border-color: rgba(129, 178, 154, 0.171);
+  transition: .6s;
+}
