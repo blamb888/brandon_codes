@@ -1,0 +1,20 @@
+/*Lists*/
+
+ul {
+  display: block;
+}
+
+li {
+  display: inline-block;
+  margin: 24px;
+  color: rgb(129, 178, 154);
+}
+
+li:hover {
+  color: rgb(224, 122, 95);
+  transition: .3s;
+}
+
+i {
+  font-size: 32px;
+}

@@ -1,0 +1,17 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-shrink: inherit;
+}
+
+.card_white {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 24px auto;
+  padding: 16px;
+  background-color: rgb(247 247 247);
+  box-shadow: 1px 1px 2px rgb(232, 238, 234);
+  text-align: center;
+  border-radius: 4px;
+}
