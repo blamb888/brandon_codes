@@ -17,5 +17,5 @@ group :test do
 end
 
 #ADDED GEMS
-gem 'yarn'
+# gem 'yarn'
 gem 'optimist'
