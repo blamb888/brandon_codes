@@ -1,5 +1,6 @@
-# Middleman Boilerplate
-A simple way to build static pages with a Rails feel.
+Brandon Codes
+
+If you would like to collaborate on something please reach out at blamb888@gmail.com:)
 
 ## Using
 
