@@ -1,11 +1,11 @@
 product_name: "Brandon Codes"
 title: "Brandon Codes - Let's build something together!"
 description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
-image: "steve.jpg" # should exist in `app/assets/images/`
+image: "rainbowD20.jpg" # should exist in `app/assets/images/`
 twitter_account: "@starry_b_eats"   # required for Twitter Cards
 og:title: "Brandon Codes"
-og:image: "steve.jpg"
+og:image: "rainbowD20.jpg"
 og:description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
 author: "Brandon"
 twitter:card: "summary_large_image"
-twitter:img:src: "steve.jpg"
+twitter:img:src: "rainbowD20.jpg"
