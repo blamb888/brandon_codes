@@ -1,9 +1,10 @@
-meta_product_name: "Brandon Codes"
-meta_title: "Brandon Codes - Let's build something together!"
-meta_description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
-meta_image: "rainbowD20.jpg" # should exist in `app/assets/images/`
-twitter_account: "@product_twitter_account"   # required for Twitter Cards
+product_name: "Brandon Codes"
+title: "Brandon Codes - Let's build something together!"
+description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
+image: "rainbowD20.jpg" # should exist in `app/assets/images/`
+twitter_account: "@starry_b_eats"   # required for Twitter Cards
 og:title: "Brandon Codes"
 og:image: "rainbowD20.jpg"
 og:description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
 meta_author: "Brandon"
+twitter:card: "rainbowD20.jpg"
