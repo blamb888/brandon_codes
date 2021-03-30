@@ -1,0 +1,5 @@
+meta_product_name: "Brandon Codes"
+meta_title: "Brandon Codes - Let's build something together!"
+meta_description: "Hello! My name is Brandon and I'm a fullstack developer living in Tokyo. I LOVE making things that make people happy and make their lives easier!"
+meta_image: "rainbowD20.jpg" # should exist in `app/assets/images/`
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
