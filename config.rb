@@ -42,4 +42,4 @@ configure :build do
   activate :relative_assets
 end
 
-activate :metaman, host: 'https://www.brandon-codes.com/'
+activate :metaman, host: 'https://www.brandon-codes.com'
