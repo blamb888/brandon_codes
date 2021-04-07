@@ -9,7 +9,7 @@
   text-shadow: 2px;
   display: flex;
   flex-direction: column;
-  width: 45%;
+  width: 75%;
   margin: 24px auto;
   padding: 16px;
   background-color: #FFDA8A;
@@ -38,9 +38,10 @@
   // grid-template-columns: 1fr;
   // grid-gap: 16px;
   display: flex;
-  flex-direction: column;
+  // flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 // Smallest device
