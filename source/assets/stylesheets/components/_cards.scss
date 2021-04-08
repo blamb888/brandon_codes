@@ -21,6 +21,13 @@
 #title_card{
   width: 100%;
   margin-top: 0px;
+  & #profile_image {
+    width: 360px;
+    height: 360px;
+  }
+  & ul {
+    display: unset;
+  }
 }
 
 #stack_card {
