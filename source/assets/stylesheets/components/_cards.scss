@@ -6,13 +6,14 @@
 }
 
 .card_white {
+  color: #0D0D0D;
   text-shadow: 2px;
   display: flex;
   flex-direction: column;
-  width: 75%;
+  width: 35%;
   margin: 24px auto;
   padding: 16px;
-  background-color: #FFDA8A;
+  background-color: #FFFFFF;
   box-shadow: 1px 1px 2px rgb(232, 238, 234);
   text-align: center;
   border-radius: 8px;
@@ -21,6 +22,9 @@
 #title_card{
   width: 100%;
   margin-top: 0px;
+  border-radius: unset;
+  background-color: #121212;
+  color:rgb(232, 238, 234);
   & #profile_image {
     width: 360px;
     height: 360px;
