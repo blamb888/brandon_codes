@@ -1,8 +1,9 @@
 .card-container {
-  display: flex;
-  flex-flow: wrap;
-  // flex-direction: column;
-  flex-shrink: inherit;
+    display: grid;
+    /* flex-shrink: inherit; */
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    grid-template-columns: auto auto;
 }
 
 .card_white {
@@ -10,13 +11,13 @@
   text-shadow: 2px;
   display: flex;
   flex-direction: column;
-  width: 35%;
+  width: 100%;
   margin: 24px auto;
   padding: 16px;
   background-color: #FFFFFF;
   box-shadow: 1px 1px 2px rgb(232, 238, 234);
   text-align: center;
-  border-radius: 8px;
+  border-radius: 2px;
 }
 
 #title_card{
@@ -25,6 +26,7 @@
   border-radius: unset;
   background-color: #121212;
   color:rgb(232, 238, 234);
+  position: sticky;
   & #profile_image {
     width: 360px;
     height: 360px;
