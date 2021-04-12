@@ -23,10 +23,11 @@ ul {
 a {
   text-decoration: none !important;
   display: inline-block;
-  color: rgb(129, 178, 154) !important;
+  color: #ecf1f6 !important;
+  text-shadow: 1px;
 }
 a:hover {
-  color: rgb(224, 122, 95) !important;
+  color: #FFFFFF !important;
   transition: .3s;
 }
 
