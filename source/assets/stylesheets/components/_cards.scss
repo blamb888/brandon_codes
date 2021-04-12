@@ -34,6 +34,9 @@
   & ul {
     display: unset;
   }
+  & #profile_image {
+    border: white 4px solid;
+  }
 }
 
 #stack_card {
