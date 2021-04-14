@@ -1,10 +1,10 @@
 .card-container {
     display: grid;
     /* flex-shrink: inherit; */
-    grid-column-gap: 16px;
+    grid-column-gap: 10%;
     grid-row-gap: 16px;
-    grid-template-columns: 45% 45%;
-    padding: 64px;
+    grid-template-columns: 1fr 1fr;
+    padding: 124px;
 }
 
 .card_white {
@@ -21,18 +21,42 @@
   text-align: center;
   border-radius: 2px;
   & .carousel {
-    margin: 32px auto;
+    margin-bottom: 24px;
   }
   & .carousel-item {
-    height: 324px;
+    width: 100%;
   }
   & .h5_carousel_container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    flex-grow: inherit;
+    // flex-grow: inherit;
   }
+  & .carousel-control-prev-icon, .carousel-control-next-icon {
+    height: 32px;
+    width: 32px;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: 100%, 100%;
+    border-radius: 50%;
+    border: 1px solid black;
+  }
+}
+
+.modal-content {
+  background: rgba(0, 0, 0, 0.274) !important;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  & .carousel-item {
+    width: 100%;
+  }
+}
+
+.modal-footer {
+  border-top: none !important;
+  padding: none !important;
 }
 
 #title_card{
@@ -91,8 +115,13 @@
 
 // Smallest device
 @media (min-width: 100px) and (max-width: 575px) {
-  .cards {
-    // grid-template-columns: 1fr;
+  .card-container {
+        display: grid;
+    /* flex-shrink: inherit; */
+    grid-column-gap: 10%;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+    padding: 16px;
     & #desktop-image {
       width: 100%;
     }
@@ -101,28 +130,38 @@
 
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
-  .cards {
-    // grid-template-columns: 1fr;
+  .card-container {
+        display: grid;
+    /* flex-shrink: inherit; */
+    grid-column-gap: 10%;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+    padding: 32px;
   }
 }
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 768px) {
-  .cards {
-    // grid-template-columns: 1fr;
+  .card-container {
+        display: grid;
+    /* flex-shrink: inherit; */
+    grid-column-gap: 10%;
+    grid-row-gap: 16px;
+    grid-template-columns: 1fr;
+    padding: 64px;
   }
 }
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .cards {
+  .card-container {
     // grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .cards {
+  .card-container {
     // grid-template-columns: 1fr 1fr;
   }
 }
