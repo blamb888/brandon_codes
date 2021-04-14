@@ -72,7 +72,7 @@
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image" %>
+                  <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
                 </div>
                 <div class="carousel-item">
                   <%= image_tag "MBCalendarSelection_ipadFrame.png", class: "d-inline-block w-100" %>
@@ -103,6 +103,19 @@
               </a>
             </div>
           </div>
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-body">
+                    <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image" %>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
           <div class="card_white">
             <%= image_tag "Frostmaiden.jpg", class: "card_image" %>
             <br>
