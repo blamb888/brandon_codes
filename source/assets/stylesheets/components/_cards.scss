@@ -3,7 +3,7 @@
     /* flex-shrink: inherit; */
     grid-column-gap: 16px;
     grid-row-gap: 16px;
-    grid-template-columns: auto auto;
+    grid-template-columns: 45% 45%;
     padding: 64px;
 }
 
@@ -12,6 +12,7 @@
   text-shadow: 2px;
   display: flex;
   flex-direction: column;
+  flex-grow: 1;
   width: 100%;
   margin: 24px auto;
   padding: 16px;
@@ -19,6 +20,19 @@
   box-shadow: 1px 1px 2px rgb(232, 238, 234);
   text-align: center;
   border-radius: 2px;
+  & .carousel {
+    margin: 32px auto;
+  }
+  & .carousel-item {
+    height: 324px;
+  }
+  & .h5_carousel_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: inherit;
+  }
 }
 
 #title_card{

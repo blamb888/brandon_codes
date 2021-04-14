@@ -60,47 +60,49 @@
             <%= image_tag "mimic.png", class: "card_image" %>
             <br>
             <h2><%= link_to "Mimic's Blackberry", "https://www.mimics-blackberry.com/", target: "_blank" %></h2>
-            <h5>I was the lead dev on this project. We made a calendar application to help DM's and players
-              connect, keep track of time, and take notes about their
-              campaigns. The app has pre-made calendar templates for
-              different fantasy settings (such as Eberron) seeded with
-              cultural events and holidays. I personally wrote the chrome
-              extension so players could add notes to their calendars
-              without leaving their VTTP's.
-            </h5>
-            <br>
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                  <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
+            <div class="h5_carousel_container">
+              <h5>I was the lead dev on this project. We made a calendar application to help DM's and players
+                connect, keep track of time, and take notes about their
+                campaigns. The app has pre-made calendar templates for
+                different fantasy settings (such as Eberron) seeded with
+                cultural events and holidays. I personally wrote the chrome
+                extension so players could add notes to their calendars
+                without leaving their VTTP's.
+              </h5>
+              <br>
+              <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBCalendarSelection_ipadFrame.png", class: "d-inline-block w-100" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBCalendarPage_ipadFrame.png", class: "d-inline-block w-100" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBEventModal_ipadFrame.png", class: "d-inline-block w-100" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBVaultPage_iphone_frame.png", class: "d-inline-block w-50" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBCalendarView_iphone_frame.png", class: "d-inline-block w-50" %>
+                  </div>
+                  <div class="carousel-item">
+                    <%= image_tag "MBAddEvent_iphone_frame.png", class: "d-inline-block w-50" %>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBCalendarSelection_ipadFrame.png", class: "d-inline-block w-100" %>
-                </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBCalendarPage_ipadFrame.png", class: "d-inline-block w-100" %>
-                </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBEventModal_ipadFrame.png", class: "d-inline-block w-100" %>
-                </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBVaultPage_iphone_frame.png", class: "d-inline-block w-100" %>
-                </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBCalendarView_iphone_frame.png", class: "d-inline-block w-100" %>
-                </div>
-                <div class="carousel-item">
-                  <%= image_tag "MBAddEvent_iphone_frame.png", class: "d-inline-block w-100" %>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
           <!-- Modal -->
@@ -120,36 +122,38 @@
             <%= image_tag "Frostmaiden.jpg", class: "card_image" %>
             <br>
             <h2><%= link_to "DnD Spells Ranked", "https://dnd-spells-ranked.herokuapp.com/", target: "_blank" %></h2>
-            <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
-              spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
-              about different spells. Thinking of adding a new section
-              specifically for people's opinions about what spells to
-              take at which level for each class.
-            </h5>
-            <br>
-            <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <%= image_tag "DNDSpellsmacbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
+            <div class="h5_carousel_container">
+              <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
+                spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
+                about different spells. Thinking of adding a new section
+                specifically for people's opinions about what spells to
+                take at which level for each class.
+              </h5>
+              <br>
+              <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <%= image_tag "DNDSpellsmacbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
+                  </div>
+                  <div class="carousel-item">
+                      <%= image_tag "DNDSpells_vertical_ipad.png", class: "d-inline-block w-50" %>
+                  </div>
+                  <div class="carousel-item">
+                      <%= image_tag "DNDSpells_create_vertical_ipad.png", class: "d-inline-block w-50" %>
+                  </div>
+                  <div class="carousel-item">
+                      <%= image_tag "DNDspellsRanked_iphone_frame.png", class: "d-inline-block w-50" %>
+                  </div>
                 </div>
-                <div class="carousel-item">
-                    <%= image_tag "DNDSpells_vertical_ipad.png", class: "d-inline-block w-50" %>
-                </div>
-                <div class="carousel-item">
-                    <%= image_tag "DNDSpells_create_vertical_ipad.png", class: "d-inline-block w-50" %>
-                </div>
-                <div class="carousel-item">
-                    <%= image_tag "DNDspellsRanked_iphone_frame.png", class: "d-inline-block w-50" %>
-                </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
               </div>
-              <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
             </div>
           </div>
           <div class="card_white">
