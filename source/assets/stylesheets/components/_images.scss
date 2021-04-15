@@ -16,6 +16,13 @@
   border-radius: 50%;
   box-shadow: 0 0 4px rgb(4, 4, 4);
   margin: 0 auto;
+  position: relative;
+}
+
+#mail {
+  position: absolute;
+  top: 5px;
+  right: 5px;
 }
 
 #doge {
@@ -43,4 +50,16 @@
 
 #rails {
   width: 64px;
+}
+
+img {
+  max-width: 100%;
+  max-height: auto;
+}
+
+#carousel {
+  & img {
+  max-width: 100%;
+  max-height: 372px;
+  }
 }

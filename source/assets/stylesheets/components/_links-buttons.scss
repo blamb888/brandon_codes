@@ -1,24 +1,25 @@
 /*Links & Buttons */
 
 a {
-  text-decoration: none;
-  color: rgb(129, 178, 154);
+  text-decoration: none !important;
+  display: inline-block;
+  color: #86AB94 !important;
+  text-shadow: 1px;
 }
 a:hover {
-  color: rgb(224, 122, 95);
+  color: #8F4625 !important;
   transition: .3s;
 }
-
 #btn_olive {
-  background: rgba(129, 178, 154, 0.315);
-  border-color: rgba(129, 178, 154, 0.52);
+  background: #BC0F0F;
+  border-color: #a10f0f;
   padding: 16px;
   margin: 16px;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 #btn_olive:hover {
-  background: rgba(129, 178, 154, 0.144);
-  border-color: rgba(129, 178, 154, 0.171);
+  background: #8a0b0b;
+  border-color: #720909;
   transition: .6s;
 }

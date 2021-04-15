@@ -1,0 +1,21 @@
+<div id="pc_carousel_controls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active" id="carousel">
+      <%= image_tag "PCCLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#PC_MODAL' } %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag "PPC_vertical_tablet.png", class: "d-inline-block w-50 ", data: { toggle: 'modal', target: '#PC_MODAL' } %>
+    </div>
+    <div class="carousel-item">
+      <%= image_tag "PPCLanding_iphone_frame.png", class: "d-inline-block w-50", data: { toggle: 'modal', target: '#PC_MODAL' } %>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#pc_carousel_controls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#pc_carousel_controls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>

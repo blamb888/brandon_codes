@@ -1,0 +1,45 @@
+<!-- Modal -->
+<div class="modal fade" id="MMB_MODAL" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-body">
+        <div id="MMB_MODALCONTROLS" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <%= image_tag "MBLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModalCenter' } %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBCalendarSelection_ipadFrame.png", class: "d-inline-block w-100", id: "iPad" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBCalendarPage_ipadFrame.png", class: "d-inline-block w-100", id: "iPad" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBEventModal_ipadFrame.png", class: "d-inline-block w-100", id: "iPad" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBVaultPage_iphone_frame.png", class: "d-inline-block w-100", id: "iPhone" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBCalendarView_iphone_frame.png", class: "d-inline-block w-100", id: "iPhone" %>
+            </div>
+            <div class="carousel-item">
+              <%= image_tag "MBAddEvent_iphone_frame.png", class: "d-inline-block w-100", id: "iPhone" %>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#MMB_MODALCONTROLS" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#MMB_MODALCONTROLS" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
