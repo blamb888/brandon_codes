@@ -77,30 +77,7 @@
             <h2><%= link_to "DnD Spells Ranked", "https://dnd-spells-ranked.herokuapp.com/", target: "_blank" %></h2>
             <div class="h5_carousel_container">
               <br>
-              <div id="carouselExampleControls2" class="carousel slide" data-ride="carousel">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                      <%= image_tag "DNDSpellsmacbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#exampleModal' } %>
-                  </div>
-                  <div class="carousel-item">
-                      <%= image_tag "DNDSpells_vertical_ipad.png", class: "d-inline-block w-50" %>
-                  </div>
-                  <div class="carousel-item">
-                      <%= image_tag "DNDSpells_create_vertical_ipad.png", class: "d-inline-block w-50" %>
-                  </div>
-                  <div class="carousel-item">
-                      <%= image_tag "DNDspellsRanked_iphone_frame.png", class: "d-inline-block w-50" %>
-                  </div>
-                </div>
-                <a class="carousel-control-prev" href="#carouselExampleControls2" role="button" data-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Previous</span>
-                </a>
-                <a class="carousel-control-next" href="#carouselExampleControls2" role="button" data-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="sr-only">Next</span>
-                </a>
-              </div>
+            <%= partial 'layouts/carousels/DS_carousel' %>
               <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
                 spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
                 about different spells. Thinking of adding a new section
@@ -109,6 +86,7 @@
               </h5>
             </div>
           </div>
+          <%= partial 'layouts/carousels/modals/DS_modal' %>
           <div class="card_white">
             <%= image_tag "steve.jpg", class: "card_image" %>
             <br>
