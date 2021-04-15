@@ -21,18 +21,18 @@
   text-align: center;
   border-radius: 2px;
   & .carousel {
-    margin-bottom: 24px;
+    margin: 16px auto;
   }
   & .carousel-item {
     width: 100%;
   }
-  & .h5_carousel_container {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    // flex-grow: inherit;
-  }
+  // & .h5_carousel_container {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  //   // flex-grow: inherit;
+  // }
   & .carousel-control-prev-icon, .carousel-control-next-icon {
     height: 24px;
     width: 24px;
@@ -40,6 +40,10 @@
     background-size: 100%, 100%;
     border-radius: 50%;
   }
+}
+
+img {
+  max-height: 372px;
 }
 
 .modal-content {
@@ -80,10 +84,7 @@
   }
 }
 
-#stack_card {
-  width: 95%;
-}
-#project_card {
+#dnd, #ripley, #art, #stack_card, #project_card {
   width: 95%;
 }
 
@@ -180,10 +181,7 @@
     grid-template-columns: 1fr 1fr;
     padding: 32px;
   }
-  #stack_card {
-    width: 55%;
-  }
-  #project_card {
+  #dnd, #ripley, #art, #stack_card, #project_card {
     width: 55%;
   }
 }

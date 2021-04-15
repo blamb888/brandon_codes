@@ -60,6 +60,7 @@
             <%= image_tag "mimic.png", class: "card_image" %>
             <br>
             <h2><%= link_to "Mimic's Blackberry", "https://www.mimics-blackberry.com/", target: "_blank" %></h2>
+            <br>
             <%= partial 'layouts/carousels/MMB_carousel' %>
             <h5>I was the lead dev on this project. We made a calendar application to help DM's and players
               connect, keep track of time, and take notes about their
@@ -77,7 +78,7 @@
             <h2><%= link_to "DnD Spells Ranked", "https://dnd-spells-ranked.herokuapp.com/", target: "_blank" %></h2>
             <div class="h5_carousel_container">
               <br>
-            <%= partial 'layouts/carousels/DS_carousel' %>
+              <%= partial 'layouts/carousels/DS_carousel' %>
               <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
                 spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
                 about different spells. Thinking of adding a new section
@@ -101,6 +102,7 @@
           </div>
           <div class="card_white">
             <%= image_tag "costume.png", class: "card_image" %>
+            <br>
             <h2><%= link_to "Costume Marketplace", "https://rails-costume-airbnb-clone.herokuapp.com/", target: "_blank" %></h2>
             <br>
             <div class="cards">
@@ -123,37 +125,49 @@
             </h5>
           </div>
           <div class="card_white">
-            <%= image_tag "potion.jpg", class: "card_image", id: "potion_image" %>
+            <%= image_tag "dali-silva-miparcial_tokyo_street.jpg", class: "card_image" %>
             <br>
-            <h2>3D Art</h2>
-            <h5>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
-              Check out my <a href="https://www.artstation.com/starry_b" class="link" target="_blank">Artstation</a>
-              or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
-              I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
-              If you're in Marrowind keep an eye out for some of my future work;)
-            </h5>
+            <h2><%= link_to "Tokyo Watch Party", "https://tokyo-watch-party.herokuapp.com/", target: "_blank" %></h2>
             <br>
-            <div id="video">
-              <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="cards">
+              <%= partial 'layouts/carousels/TWP_carousel' %>
+              <%= partial 'layouts/carousels/modals/TWP_modal' %>
             </div>
-          </div>
-          <div class="card_white">
-            <%= image_tag "ripley_leaves.jpeg", class: "card_image" %>
-            <br>
-            <h2>Shiba Dad</h2>
-            <h5>Enough talk about me.
-              You're all here for the pupper photos, I know.
-              Please like and follow my dog Ripley on her
-              <a href="https://www.instagram.com/ripley_the_tokyo_shiba/" class="link" target="_blank">Instagram</a>.
+            <h5>This app uses the Vonage video API to make a private screenshare/watch party for a group of friends. The app has a simple sign in function, along with screenshare and chat functions.
             </h5>
           </div>
-          <div class="card_white mb-5">
-            <%= image_tag "dnd_logo_olive.png", id: "dnd_logo", class: "card_image" %>
-            <br>
-            <h2>D&D Nerd</h2>
-            <h5>I have been playing Dungeons and Dragons for a couple of years now. I mainly DM but I love to be a player as well. Let me know if you want to <%= link_to "roll for initiative", "https://app.roll20.net/users/3742675/brandon-l", target: "_blank" %> on something!
-            </h5>
+        </div>
+        <div class="card_white" id="art">
+          <%= image_tag "potion.jpg", class: "card_image", id: "potion_image" %>
+          <br>
+          <h2>3D Art</h2>
+          <h5>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
+            Check out my <a href="https://www.artstation.com/starry_b" class="link" target="_blank">Artstation</a>
+            or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
+            I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
+            If you're in Marrowind keep an eye out for some of my future work;)
+          </h5>
+          <br>
+          <div id="video">
+            <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
+        </div>
+        <div class="card_white" id="ripley">
+          <%= image_tag "ripley_leaves.jpeg", class: "card_image" %>
+          <br>
+          <h2>Shiba Dad</h2>
+          <h5>Enough talk about me.
+            You're all here for the pupper photos, I know.
+            Please like and follow my dog Ripley on her
+            <a href="https://www.instagram.com/ripley_the_tokyo_shiba/" class="link" target="_blank">Instagram</a>.
+          </h5>
+        </div>
+        <div class="card_white mb-5" id="dnd">
+          <%= image_tag "dnd_logo_olive.png", id: "dnd_logo", class: "card_image" %>
+          <br>
+          <h2>D&D Nerd</h2>
+          <h5>I have been playing Dungeons and Dragons for a couple of years now. I mainly DM but I love to be a player as well. Let me know if you want to <%= link_to "roll for initiative", "https://app.roll20.net/users/3742675/brandon-l", target: "_blank" %> on something!
+          </h5>
         </div>
       </div>
       <div class="page-frame-footer">
