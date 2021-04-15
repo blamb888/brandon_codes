@@ -91,72 +91,36 @@
             <%= image_tag "steve.jpg", class: "card_image" %>
             <br>
             <h2><%= link_to "Stranger Gifs", "https://blamb888.github.io/workshop/", target: "_blank" %></h2>
-            <h5>I am currently brushing up on my React skills and going through an amazing workshop. This gif page was made utilizing React, Babel, and JSX.
-            </h5>
             <br>
             <div class="cards">
-              <div>
-                <%= image_tag "strangerGif2.gif", class: "d-inline-block w-100", id: "desktop-image" %>
-              </div>
-              <div class="my-3">
-                <%= image_tag "strangerGif4.gif", class: "d-inline-block w-100", id: "desktop-image" %>
-              </div>
+              <%= partial 'layouts/carousels/SG_carousel' %>
+              <%= partial 'layouts/carousels/modals/SG_modal' %>
             </div>
+            <h5>I am currently brushing up on my React skills and going through an amazing workshop. This gif page was made utilizing React, Babel, and JSX.
+            </h5>
           </div>
           <div class="card_white">
             <%= image_tag "costume.png", class: "card_image" %>
-            <br>
             <h2><%= link_to "Costume Marketplace", "https://rails-costume-airbnb-clone.herokuapp.com/", target: "_blank" %></h2>
-            <h5>I was lead developer for this one-week market-place project sprint. I did a
-              lot of the back-end work on this project, including
-              creating the back-end CRUD methods and implementing
-              our map, and setting up our Cloudinary services.
-            </h5>
+            <br>
             <div class="cards">
-              <div>
-                <ul>
-                  <li>
-                    <%= image_tag "CostumeMarketPlace_desktop.jpg", class: "d-inline-block w-100", id: "desktop-image" %>
-                  </li>
-                  <li>
-                    <%= image_tag "CostumeMarketPlace_desktop2.jpg", class: "d-inline-block w-100", id: "desktop-image" %>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    <%= image_tag "CostumeMarketPlace_desktop3.jpg", class: "d-inline-block w-100", id: "desktop-image" %>
-                  </li>
-                  <li>
-                    <%= image_tag "CostumeMarketPlace_desktop4.jpg", class: "d-inline-block w-100", id: "desktop-image" %>
-                  </li>
-                </ul>
-              </div>
+              <%= partial 'layouts/carousels/CM_carousel' %>
+              <%= partial 'layouts/carousels/modals/CM_modal' %>
             </div>
+            <h5>I was lead developer for this one-week market-place    project sprint. I did a lot of the back-end work on this project, including creating the back-end CRUD methods and implementing our map, and setting up our Cloudinary services.
+            </h5>
           </div>
           <div class="card_white">
             <%= image_tag "popculture.jpg", class: "card_image" %>
             <br>
             <h2><%= link_to "Pop-culture Cocktails", "https://pop-culture-cocktails.herokuapp.com/", target: "_blank" %></h2>
-            <h5>This was the first app I ever made aside from my profile. There is a cocktail bar in Shibuya that serves cocktails based off of famous movies. For instance the "Die Hard" on their menu is basically gasoline. I thought it would be fun to have a place where people could share their ideas of what different movie cocktails should be.
-            </h5>
             <br>
             <div class="cards">
-              <div>
-                <%= image_tag "PCCLanding_macbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image" %>
-              </div>
-              <div>
-                <ul>
-                  <li>
-                    <%= image_tag "PopCultureCocktails_tablet.jpg", class: "d-inline-block w-100" %>
-                  </li>
-                  <li>
-                    <%= image_tag "PPCLanding_iphone_frame.png", class: "d-inline-block w-100" %>
-                  </li>
-                </ul>
-              </div>
+              <%= partial 'layouts/carousels/PC_carousel' %>
+              <%= partial 'layouts/carousels/modals/PC_modal' %>
             </div>
+            <h5>This was the first app I ever made aside from my profile. There is a cocktail bar in Shibuya that serves cocktails based off of famous movies. For instance the "Die Hard" on their menu is basically gasoline. I thought it would be fun to have a place where people could share their ideas of what different movie cocktails should be.
+            </h5>
           </div>
           <div class="card_white">
             <%= image_tag "potion.jpg", class: "card_image", id: "potion_image" %>

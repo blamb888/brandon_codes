@@ -5,19 +5,13 @@
         <div class="modal-body">
           <div id="SG_MODALCONTROLS" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
-              <div class="carousel-item active">
-                  <%= image_tag "DNDSpellsmacbook-laptop-frame.png", class: "d-inline-block w-100", id: "desktop-image" %>
+                <div class="carousel-item active">
+                    <%= image_tag "strangerGif2.gif", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#SG_MODAL' } %>
+                </div>
+                <div class="carousel-item">
+                    <%= image_tag "strangerGif4.gif", class: "d-inline-block w-100", id: "desktop-image", data: { toggle: 'modal', target: '#SG_MODAL' } %>
+                </div>
               </div>
-              <div class="carousel-item">
-                  <%= image_tag "DNDSpells_vertical_ipad.png", class: "d-inline-block w-100" %>
-              </div>
-              <div class="carousel-item">
-                  <%= image_tag "DNDSpells_create_vertical_ipad.png", class: "d-inline-block w-100" %>
-              </div>
-              <div class="carousel-item">
-                  <%= image_tag "DNDspellsRanked_iphone_frame.png", class: "d-inline-block w-100" %>
-              </div>
-            </div>
             <a class="carousel-control-prev" href="#SG_MODALCONTROLS" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
               <span class="sr-only">Previous</span>
