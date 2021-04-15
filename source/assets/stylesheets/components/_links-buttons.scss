@@ -1,14 +1,15 @@
 /*Links & Buttons */
 
 a {
-  text-decoration: none;
-  color: #BC0F0F;
+  text-decoration: none !important;
+  display: inline-block;
+  color: #86AB94 !important;
+  text-shadow: 1px;
 }
 a:hover {
-  color: #a10808;
+  color: #8F4625 !important;
   transition: .3s;
 }
-
 #btn_olive {
   background: #BC0F0F;
   border-color: #a10f0f;
