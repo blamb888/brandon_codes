@@ -2,7 +2,7 @@ Brandon Codes
 
 If you would like to collaborate on something please reach out at blamb888@gmail.com:)
 
-![image](https://user-images.githubusercontent.com/3223329/112986656-b99e0a00-919c-11eb-8376-b67b8d5f790f.png)
+![image](https://user-images.githubusercontent.com/3223329/114967268-18f35e00-9eaf-11eb-984a-67e1bdabc306.png)
 
 
 ## Using
