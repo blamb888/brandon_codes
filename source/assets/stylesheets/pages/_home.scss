@@ -104,10 +104,12 @@ ul {
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media (max-width: 576px) {
   .content-container {
-    width: 300px;
+    width: 100%;
+    height: auto;
   }
    .card_white {
-    width: 300px;
+    width: 100%;
+    height: auto;
   }
   i {
     font-size: 24px;
