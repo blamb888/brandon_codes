@@ -1,29 +1,29 @@
-/*Images*/
-.card_image {
-  margin: 0 auto;
-  width: 128px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 2px rgb(4, 4, 4);
-  text-align: left;
-}
+// /*Images*/
+// // .card_image {
+// //   margin: 0 auto;
+// //   width: 128px;
+// //   height: 128px;
+// //   object-fit: cover;
+// //   border-radius: 50%;
+// //   box-shadow: 0 0 2px rgb(4, 4, 4);
+// //   text-align: left;
+// // }
 
-#profile_image {
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
-  border-radius: 50%;
-  box-shadow: 0 0 4px rgb(4, 4, 4);
-  margin: 0 auto;
-  position: relative;
-}
+// #profile_image {
+//   width: 160px;
+//   height: 160px;
+//   object-fit: cover;
+//   border-radius: 50%;
+//   box-shadow: 0 0 4px rgb(4, 4, 4);
+//   margin: 0 auto;
+//   position: relative;
+// }
 
-#mail {
-  position: absolute;
-  top: 5px;
-  right: 5px;
-}
+// #mail {
+//   position: absolute;
+//   top: 5px;
+//   right: 5px;
+// }
 
 #doge {
   margin: 0px 5px 15px 0px;
@@ -34,32 +34,32 @@
   box-shadow: 0 0 2px rgb(4, 4, 4);
 }
 
-#dnd_logo {
-  margin: 0 auto;
-  width: 256px;
-  height: 128px;
-  object-fit: cover;
-  border-radius: 4px;
-  box-shadow: 0 0 2px rgba(2, 2, 2, 0.308);
-  align-content: inherit;
-}
+// #dnd_logo {
+//   margin: 0 auto;
+//   width: 256px;
+//   height: 128px;
+//   object-fit: cover;
+//   border-radius: 4px;
+//   box-shadow: 0 0 2px rgba(2, 2, 2, 0.308);
+//   align-content: inherit;
+// }
 
-#video {
-  margin: 0 auto;
-}
+// #video {
+//   margin: 0 auto;
+// }
 
-#rails {
-  width: 64px;
-}
+// #rails {
+//   width: 64px;
+// }
 
-img {
-  max-width: 100%;
-  max-height: auto;
-}
+// // img {
+// //   max-width: 100%;
+// //   max-height: auto;
+// // }
 
-#carousel {
-  & img {
-  max-width: 100%;
-  max-height: 372px;
-  }
-}
+// // #carousel {
+// //   & img {
+// //   max-width: 100%;
+// //   max-height: 372px;
+// //   }
+// // }
