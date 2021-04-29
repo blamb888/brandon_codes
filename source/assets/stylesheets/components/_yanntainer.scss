@@ -25,6 +25,20 @@ a {
   display: inline-block;
 }
 
+.post-content-description i:first-child {
+  color: #bc0f0f;
+  font-size: x-large;
+}
+
+.post-content-links i {
+  color: #bc0f0f;
+  font-size: larger;
+}
+
+.post-content-description i:hover, .post-content-links i:hover {
+  color: #cf0e0e;
+}
+
 .page-frame-content {
   height: 100vh;
   display: flex;

@@ -36,6 +36,14 @@
     flex-direction: column;
     justify-content: space-between;
 
+    & a {
+      color: #bc0f0f;
+    }
+
+    & a:hover {
+      color: #cf0e0e;
+    }
+
     & .post-content-title {
       font-size: 28px;
       font-family: "Roboto Condensed";
