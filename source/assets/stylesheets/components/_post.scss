@@ -11,10 +11,10 @@
     height: 200px;
     position: relative;
     width: 100%;
-
     & .post-preview-link {
       background: top right #222 no-repeat;
       background-size: cover;
+      background-position: center;
       position: absolute;
       top: 0;
       left: 0;
@@ -63,7 +63,9 @@
       margin-top: 10px;
       -webkit-box-flex: 1;
       flex: 1;
-      & ul, li {
+      & stack, item {
+        font-size: x-large;
+        padding: 0px 8px 16px;
         list-style: none;
         display: flex;
         flex-wrap: wrap;
