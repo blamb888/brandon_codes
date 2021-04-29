@@ -2,20 +2,28 @@
   background: rgba(0, 0, 0, 0.274) !important;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
   align-items: center;
+  justify-content: center;
   & .carousel-item {
     width: 100%;
-  }
-  & .carousel-inner {
-    display: flex;
-    & #iPhone, #desktop-image, #iPad {
-      width: 100% !important;
-      }
+    height: auto;
+    background-size: cover;
+    background-position: center;
   }
 }
 
 .modal-footer {
   border-top: none !important;
   padding: none !important;
+}
+
+#hide-overflow {
+      height: auto;
+      width: auto;
+}
+#big-image {
+    height: 200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }

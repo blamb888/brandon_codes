@@ -8,186 +8,23 @@
     <meta name="keywords" content="Ruby, JavaScript, Rails, React, Git, Heroku, Dungeons & Dragons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
   </head>
   <body>
+    <%= partial 'layouts/partials/navbar' %>
     <div class="page-frame-content">
+      <a name="top"></a>
       <div class="page-frame-header">
+        <%= partial 'layouts/partials/banner' %>
       </div>
       <div class="page-frame-body">
-        <div class="card_white" id="title_card">
-          <%= image_tag "brandon_with_sakura_round.png", id: "profile_image" %>
-          <h2 id="mail"><a href="mailto:blamb888@gmail.com" id="btn_olive" target="_blank">
-              <i class="fas fa-paper-plane"></i></a></h2>
-          <h1>Brandon Lamb</h1>
-          <ul class="header_ul">
-            <li>
-              <h4><a href="https://app.roll20.net/users/3742675/brandon-l" id="btn_olive" target="_blank">
-                  D&D Enthusiast</a></h4>
-            </li>
-            <li>
-              <h4><a href="https://github.com/blamb888" id="btn_olive" target="_blank">Full Stack Developer</a></h4>
-            </li>
-            <li>
-              <h4><a href="https://www.instagram.com/starry_b_eats/" id="btn_olive" target="_blank">Great Smiler</a></h4>
-            </li>
-          </ul>
-        </div>
-        <div class="card_white" id="stack_card">
-          <%= image_tag "stack.jpg", class: "card_image" %>
-          <br>
-          <h2>My Stack</h2>
-          <h5>I studied programming at
-            <a href="https://www.lewagon.com/tokyo" class="link" target="_blank">Le Wagon Tokyo</a>. Where I learned OOP with Ruby, Ruby on Rails, SQLite, PostgreSQL, HTML5, CSS3, JS and libraries (Bootstrap, jQuery...), and React. So my stack looks like this:
-            <ul>
-              <li><%= image_tag "ruby.png", id: "rails" %></li>
-              <li><%= image_tag "rails_icon.png", id: "rails" %></li>
-              <li><%= image_tag "postgresql.png", id: "rails" %></li>
-              <li><%= image_tag "Sqlite-square.png", id: "rails" %></li>
-              <li><%= image_tag "react.png", id: "rails" %></li>
-              <li><%= image_tag "javascript.png", id: "rails" %></li>
-              <li><%= image_tag "html5.png", id: "rails" %></li>
-              <li><%= image_tag "css3.png", id: "rails" %></li>
-            </ul>
-          </h5>
-        </div>
-        <div class="card_white" id="project_card">
-          <%= image_tag "dragon_jumpers.jpg", class: "card_image", load: "lazy" %>
-          <br>
-          <h2>Projects</h2>
-          <h5>I really love building things. Especially things related to games or bringing people together. Please take a look and let me know if you want to collaborate on something.
-          </h5>
-        </div>
-        <div class="card-container">
-          <div class="card_white">
-            <%= image_tag "mimic.png", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "Mimic's Blackberry", "https://www.mimics-blackberry.com/", target: "_blank" %></h2>
-            <br>
-            <%= partial 'layouts/carousels/MMB_carousel' %>
-            <h5>I was the lead dev on this project. We made a calendar application to help DM's and players
-              connect, keep track of time, and take notes about their
-              campaigns. The app has pre-made calendar templates for
-              different fantasy settings (such as Eberron) seeded with
-              cultural events and holidays. I personally wrote the chrome
-              extension so players could add notes to their calendars
-              without leaving their VTTP's.
-            </h5>
-          </div>
-          <%= partial 'layouts/carousels/modals/MMB_modal' %>
-          <div class="card_white">
-            <%= image_tag "Frostmaiden.jpg", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "DnD Spells Ranked", "https://dnd-spells-ranked.herokuapp.com/", target: "_blank" %></h2>
-            <div class="h5_carousel_container">
-              <br>
-              <%= partial 'layouts/carousels/DS_carousel' %>
-              <h5>This was a solo project I did. I made an application for ranking and reviewing D&D
-                spells. I thought it might be fun to have a constantly up-to-date place for players to go see how other players feel
-                about different spells. Thinking of adding a new section
-                specifically for people's opinions about what spells to
-                take at which level for each class.
-              </h5>
-            </div>
-          </div>
-          <%= partial 'layouts/carousels/modals/DS_modal' %>
-          <div class="card_white">
-            <%= image_tag "steve.jpg", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "Stranger Gifs", "https://blamb888.github.io/workshop/", target: "_blank" %></h2>
-            <br>
-            <div class="cards">
-              <%= partial 'layouts/carousels/SG_carousel' %>
-              <%= partial 'layouts/carousels/modals/SG_modal' %>
-            </div>
-            <h5>I am currently brushing up on my React skills and going through an amazing workshop. This gif page was made utilizing React, Babel, and JSX.
-            </h5>
-          </div>
-          <div class="card_white">
-            <%= image_tag "costume.png", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "Costume Marketplace", "https://rails-costume-airbnb-clone.herokuapp.com/", target: "_blank" %></h2>
-            <br>
-            <div class="cards">
-              <%= partial 'layouts/carousels/CM_carousel' %>
-              <%= partial 'layouts/carousels/modals/CM_modal' %>
-            </div>
-            <h5>I was lead developer for this one-week market-place    project sprint. I did a lot of the back-end work on this project, including creating the back-end CRUD methods and implementing our map, and setting up our Cloudinary services.
-            </h5>
-          </div>
-          <div class="card_white">
-            <%= image_tag "popculture.jpg", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "Pop-culture Cocktails", "https://pop-culture-cocktails.herokuapp.com/", target: "_blank" %></h2>
-            <br>
-            <div class="cards">
-              <%= partial 'layouts/carousels/PC_carousel' %>
-              <%= partial 'layouts/carousels/modals/PC_modal' %>
-            </div>
-            <h5>This was the first app I ever made aside from my profile. There is a cocktail bar in Shibuya that serves cocktails based off of famous movies. For instance the "Die Hard" on their menu is basically gasoline. I thought it would be fun to have a place where people could share their ideas of what different movie cocktails should be.
-            </h5>
-          </div>
-          <div class="card_white">
-            <%= image_tag "dali-silva-miparcial_tokyo_street.jpg", class: "card_image", load: "lazy" %>
-            <br>
-            <h2><%= link_to "Tokyo Watch Party", "https://tokyo-watch-party.herokuapp.com/", target: "_blank" %></h2>
-            <br>
-            <div class="cards">
-              <%= partial 'layouts/carousels/TWP_carousel' %>
-              <%= partial 'layouts/carousels/modals/TWP_modal' %>
-            </div>
-            <h5>This app uses the Vonage video API to make a private screenshare/watch party for a group of friends. The app has a simple sign in function, along with screenshare and chat functions.
-            </h5>
-          </div>
-        </div>
-        <div class="card_white" id="art">
-          <%= image_tag "potion.jpg", class: "card_image", load: "lazy", id: "potion_image" %>
-          <br>
-          <h2>3D Art</h2>
-          <h5>I am an avid gamer and in my spare time I like to model and texture different nerdy things.
-            Check out my <a href="https://www.artstation.com/starry_b" class="link" target="_blank">Artstation</a>
-            or my <a href="https://www.behance.net/starry_b_tokyo" class="link" target="_blank">Behance</a>.
-            I am even part of a nerdy modding group <a href="https://beyondskyrim.org/" class="link" target="_blank">Beyond Skyrim</a>.
-            If you're in Marrowind keep an eye out for some of my future work;)
-          </h5>
-          <br>
-          <div id="video">
-            <iframe src="https://www.youtube.com/embed/Rd5BCzXKf-U" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          </div>
-        </div>
-        <div class="card_white" id="ripley">
-          <%= image_tag "ripley_leaves.jpeg", class: "card_image", load: "lazy" %>
-          <br>
-          <h2>Shiba Dad</h2>
-          <h5>Enough talk about me.
-            You're all here for the pupper photos, I know.
-            Please like and follow my dog Ripley on her
-            <a href="https://www.instagram.com/ripley_the_tokyo_shiba/" class="link" target="_blank">Instagram</a>.
-          </h5>
-        </div>
-        <div class="card_white mb-5" id="dnd">
-          <%= image_tag "dnd_logo_olive.png", id: "dnd_logo", class: "card_image", load: "lazy" %>
-          <br>
-          <h2>D&D Nerd</h2>
-          <h5>I have been playing Dungeons and Dragons for a couple of years now. I mainly DM but I love to be a player as well. Let me know if you want to <%= link_to "roll for initiative", "https://app.roll20.net/users/3742675/brandon-l", target: "_blank" %> on something!
-          </h5>
+        <div class="content-container">
+          <%= partial 'layouts/partials/post-container' %>
         </div>
       </div>
       <div class="page-frame-footer">
-        <div class="footer">
-          <ul class="footer-links">
-            <li><a href="https://www.facebook.com/brandon.lamb.1987/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-            <li><a href="https://www.linkedin.com/in/lamb-brandon/" target="_blank"><i class="fab fa-linkedin"></i></a></li>
-            <li><a href="https://github.com/blamb888" target="_blank"><i class="fab fa-github-square"></i></a></li>
-            <li><a href="https://www.artstation.com/starry_b" target="_blank"><i class="fab fa-artstation"></i></a></li>
-            <li><a href="https://www.behance.net/starry_b_tokyo" target="_blank"><i class="fab fa-behance-square"></i></a></li>
-            <li><a href="https://www.instagram.com/starry_b_eats/" target="_blank"><i class="fab fa-instagram"></i></a></li>
-            <li><a href="https://www.instagram.com/ripley_the_tokyo_shiba/" target="_blank"><i class="fab fa-instagram"><%= image_tag "doge_png.png", id: "doge" %></i></a></li>
-          </ul>
-        </div>
+        <%= partial 'layouts/partials/footer' %>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
   </body>
 </html>

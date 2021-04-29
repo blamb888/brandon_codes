@@ -1,6 +1,12 @@
+// Import your Fonts here
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+
 // Import your components CSS files here.
 @import "alert";
 @import "avatar";
+@import "banner";
+@import "buttons";
 @import "navbar";
 @import "cards";
 @import "links-buttons";
@@ -8,3 +14,6 @@
 @import "footer";
 @import "images";
 @import "modals";
+@import "post";
+@import "post-container";
+@import "yanntainer";
