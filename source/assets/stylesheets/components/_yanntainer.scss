@@ -6,9 +6,18 @@ body {
 body, h1, h2, h3, p {
   margin: 0;
 }
+h1, h2, h3 {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+p, a, li {
+  font-family: 'Roboto', sans-serif;
+}
 
 ul {
   padding: 0;
+  list-style: none;
+  display: inline-block;
 }
 
 a {

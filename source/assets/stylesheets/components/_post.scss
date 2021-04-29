@@ -64,6 +64,7 @@
       -webkit-box-flex: 1;
       flex: 1;
       & stack, item {
+        justify-content: center;
         font-size: x-large;
         padding: 0px 8px 16px;
         list-style: none;
