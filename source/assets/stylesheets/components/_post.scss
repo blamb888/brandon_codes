@@ -11,6 +11,7 @@
     height: 200px;
     position: relative;
     width: 100%;
+    cursor: zoom-in;
     & .post-preview-link {
       background: top right #222 no-repeat;
       background-size: cover;
@@ -34,6 +35,14 @@
     -webkit-box-direction: normal;
     flex-direction: column;
     justify-content: space-between;
+
+    & a {
+      color: #bc0f0f;
+    }
+
+    & a:hover {
+      color: #cf0e0e;
+    }
 
     & .post-content-title {
       font-size: 28px;
