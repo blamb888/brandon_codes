@@ -1,5 +1,5 @@
 .navbar-lewagon {
-  justify-content: space-evenly !important;
+  justify-content: flex-end !important;
   background: black;
   box-shadow: 0px 2px rgba(0, 0, 0, 0.16);
   position: fixed !important;
@@ -17,6 +17,9 @@
   & .nav-link {
     color: white !important;
     text-shadow: 2px;
+  }
+  & #navbarSupportedContent {
+    margin-right: 10%;
   }
 }
 
