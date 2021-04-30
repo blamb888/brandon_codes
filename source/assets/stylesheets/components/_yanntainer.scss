@@ -65,9 +65,55 @@ a {
   margin: 0 auto;
 }
 
+/* Large devices (laptops/desktops, 1366 and up) */
+@media (max-width: 1366px) {
+  .content-container {
+    width: 100%;
+    margin: 8px auto;
+  }
 
+  .post-content-title {
+    font-size: 28px;
+  }
 
-/* Large devices (laptops/desktops, 992px and up) */
+  .post-list {
+
+    & li {
+      width: 50%;
+      padding: 0px 8px 16px;
+    }
+
+    & li:nth-child(n+3):nth-child(-n+8) {
+      width: 33%;
+      padding: 0px 8px 16px;
+
+      & .post-content-description {
+        display: none;
+      }
+    }
+
+    & li:nth-child(n+9):nth-child(-n+11) {
+      width: 50%;
+      padding: 0px 8px 16px;
+    }
+  }
+
+  .navbar-brand {
+    width: 65%;
+  }
+
+  .content-container {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  body {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* Large devices (laptops/desktops, 1024px and up) */
 @media (max-width: 1024px) {
   .content-container {
     width: 100%;
@@ -301,6 +347,116 @@ a {
   }
 
   body{
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* Small devices (old phones 375 and up/Iphone 6/7/8) */
+@media (max-width: 375px) {
+  .content-container {
+    width: 100%;
+    margin: 8px auto;
+  }
+
+  .post-content-title {
+    font-size: 16px;
+  }
+
+  .post-container {
+    width: 100%;
+  }
+
+  .post-list {
+
+    & li {
+      width: 100%;
+      padding: 0px 8px 16px;
+    }
+
+    & li:nth-child(n+3):nth-child(-n+8) {
+      width: 100%;
+      padding: 0px 8px 16px;
+
+      & .post-content-description {
+        display: none;
+      }
+    }
+
+    & li:nth-child(n+9):nth-child(-n+11) {
+      width: 100%;
+      padding: 0px 8px 16px;
+    }
+  }
+
+  .banner {
+    margin-top: 56px;
+  }
+
+  .navbar-brand {
+    width: 10%;
+  }
+
+  .btn-red {
+    margin-top: 8px;
+  }
+
+  body {
+    width: 100% !important;
+    max-width: none !important;
+  }
+}
+
+/* Small devices (old phones 320 and up/Iphone 5) */
+@media (max-width: 320px) {
+  .content-container {
+    width: 100%;
+    margin: 8px auto;
+  }
+
+  .post-content-title {
+    font-size: 16px;
+  }
+
+  .post-container {
+    width: 100%;
+  }
+
+  .post-list {
+
+    & li {
+      width: 100%;
+      padding: 0px 8px 16px;
+    }
+
+    & li:nth-child(n+3):nth-child(-n+8) {
+      width: 100%;
+      padding: 0px 8px 16px;
+
+      & .post-content-description {
+        display: none;
+      }
+    }
+
+    & li:nth-child(n+9):nth-child(-n+11) {
+      width: 100%;
+      padding: 0px 8px 16px;
+    }
+  }
+
+  .banner {
+    margin-top: 56px;
+  }
+
+  .navbar-brand {
+    width: 10%;
+  }
+
+  .btn-red {
+    margin-top: 8px;
+  }
+
+  body {
     width: 100% !important;
     max-width: none !important;
   }
