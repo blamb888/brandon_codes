@@ -7,6 +7,9 @@
     <meta name="description" content="Hi I'm Brandon a fullstack developer living in the heart of Tokyo. I love building things that make people happy.">
     <meta name="keywords" content="Ruby, JavaScript, Rails, React, Git, Heroku, Dungeons & Dragons">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.11.0/devicon.min.css">
   </head>
@@ -26,8 +29,13 @@
         <%= partial 'layouts/partials/footer' %>
       </div>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script>
+      $(document).on('click','.navbar-collapse.in',function(e) {
+        console.log("hello there")
+          if( $(e.target).is('a:not(".dropdown-toggle")') ) {
+              $(this).collapse('hide');
+          }
+      });
+    </script>
   </body>
 </html>
