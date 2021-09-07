@@ -8,6 +8,9 @@ gem 'rake'
 gem 'rubocop'
 gem 'dotenv-rails'
 
+#ADDED GEMS
+gem 'cloudinary', '~> 1.21'
+gem 'font-awesome-sass', '~> 5.13.0'
 
 group :test do
   gem 'capybara'
@@ -15,8 +18,3 @@ group :test do
   gem 'rspec'
   gem 'selenium-webdriver'
 end
-
-#ADDED GEMS
-gem 'cloudinary', '~> 1.21'
-gem 'font-awesome-sass', '~> 5.13.0'
-
