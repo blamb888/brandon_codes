@@ -6,7 +6,6 @@ gem 'middleman-gh-pages'
 gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
-gem 'dotenv-rails'
 
 #ADDED GEMS
 gem 'cloudinary', '~> 1.21'
