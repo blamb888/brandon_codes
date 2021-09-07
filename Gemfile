@@ -3,12 +3,11 @@ source 'https://rubygems.org'
 gem 'middleman'
 gem 'middleman-autoprefixer'
 gem 'middleman-gh-pages'
+gem 'middleman-metaman'
 gem 'rake'
 gem 'rubocop'
 gem 'dotenv-rails'
-gem 'cloudinary', '~> 1.21'
 
-gem 'font-awesome-sass', '~> 5.13.0'
 
 group :test do
   gem 'capybara'
@@ -18,5 +17,6 @@ group :test do
 end
 
 #ADDED GEMS
-gem 'middleman-metaman'
+gem 'cloudinary', '~> 1.21'
+gem 'font-awesome-sass', '~> 5.13.0'
 
